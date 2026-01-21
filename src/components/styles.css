@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(235, 235, 229);
+}
+
+/* Navbar */
+.head {
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  background-color: #333;
+}
+
+.head a {
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  padding: 18px 14px;
+  border-radius: 5px;
+}
+
+.head a:hover {
+  background-color: #0056b3;
+}
+
+/* Main box */
+.weather-box {
+  width: 350px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Input */
+.weather-box input {
+  width: 90%;
+  padding: 18px;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.weather-box button {
+  padding: 18px 12px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* Temperature */
+.temp-output {
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Error */
+.error {
+  margin-top: 10px;
+  color: red;
+}
+.head {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  background-color: #333;
+}
+
+.head a {
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  padding: 8px 14px;
+  border-radius: 5px;
+}
+
+.head h3 {
+  margin-left: auto;
+  color: white;
+  font-size: 14px;
+}
